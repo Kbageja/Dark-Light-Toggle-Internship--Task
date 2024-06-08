@@ -1,0 +1,32 @@
+/* src/App.css */
+.App {
+  text-align: center;
+  min-height: 100vh;
+  transition: background-color 0.3s, color 0.3s;
+}
+.togglebtn{
+  border-radius: 45px;
+}
+
+.dark-mode {
+  background-color: #181818;
+  color: white;
+}
+
+.dark-mode .navbar {
+  background-color: #282c34 !important;
+  color: white !important;
+  border-bottom: 1px solid #444;
+  box-sizing: border-box;
+  box-shadow: 1px 1px  15px white;
+}
+.dark-mode .navbar-brand{
+  color:white;
+}
+.dark-mode .togglebtn{
+  color: white;
+  border: 1px solid white;
+  border-radius: 45px;
+
+  
+}
